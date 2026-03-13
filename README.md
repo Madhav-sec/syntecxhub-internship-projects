@@ -10,7 +10,7 @@ Completed the first internship task for SyntecXHub: two projects demonstrating s
 #  1. Port Scanner (TCP Port Scanner)
 - Folder: [port_scanner](port_scanner)
 - Description: A threaded TCP port scanner built with Python sockets and concurrent futures.
- * Features
+# Features
   - Scans single host or port range
   - Adjustable threads and timeout
   - Service name lookup for open ports
@@ -22,7 +22,7 @@ Completed the first internship task for SyntecXHub: two projects demonstrating s
 #  2. Password Manager (Secure Local Vault)
 - Folder: [password_manager](password_manager)
 - Description: A local password manager using AES encryption (Fernet) with PBKDF2 key derivation from a master password.
-  * Features:
+  # Features
   - Add, list, get, search, delete entries
   - Encrypted JSON storage (secure_vault.enc)
   - Master password required for decryption
