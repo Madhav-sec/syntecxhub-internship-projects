@@ -1,0 +1,9 @@
+2026-03-21 12:17:43,905 - [('127.0.0.1', 62367)] hi
+2026-03-21 12:18:00,589 - [('127.0.0.1', 62367)] How are you
+2026-03-21 12:27:01,544 | 12:27:01 | Server \u2192 Broadcast: User 127.0.0.1:51883 joined the chat! (1 online)
+2026-03-21 12:29:52,193 | 12:29:52 | 127.0.0.1:51883 \u2192 Broadcast: Hello World
+2026-03-21 12:36:07,582 | 12:36:07 | Server \u2192 Broadcast: User 127.0.0.1:60967 joined the chat! (2 online)
+2026-03-21 12:36:29,893 | 12:36:29 | 127.0.0.1:51883 \u2192 Broadcast: print Hello World 
+2026-03-21 12:37:26,671 | 12:37:26 | 127.0.0.1:60967 \u2192 Broadcast: printing Hello World 
+2026-03-21 12:59:48,447 | 12:59:48 | Server \u2192 Broadcast: User 127.0.0.1:60967 left the chat! (1 online)
+2026-03-21 12:59:52,004 | 12:59:52 | Server \u2192 Broadcast: User 127.0.0.1:51883 left the chat! (0 online)
