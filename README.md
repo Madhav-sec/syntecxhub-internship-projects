@@ -39,3 +39,35 @@ Completed the first internship task for SyntecXHub: two projects demonstrating s
 1. Clone the repo:
    ```bash
    git clone https://github.com/Madhav-sec/syntecxhub-internship-projects.git
+   
+
+# Task 2: Encrypted Chat App
+
+Submitted by: Madhav  
+Date: March 2026  
+
+A secure multi-client real-time chat application where all messages are encrypted using **AES-256-GCM** before being sent over TCP sockets.
+
+# Features Implemented
+
+- TCP client-server architecture
+- AES-256-GCM encryption with authentication (confidentiality + integrity)
+- Random nonce (IV) generated for every single message
+- Key derived from passphrase using PBKDF2 (600,000 iterations)
+- Server supports multiple clients concurrently using threading
+- Server logs both plain and encrypted messages to `chat_log.txt`
+- Debug prints show raw encrypted hex payload (proof that messages are encrypted on the wire)
+- Graceful client disconnection and broadcast on leave/join
+
+## Tech Stack
+
+- Python 3
+- socket, threading
+- cryptography library (AESGCM + PBKDF2HMAC)
+- No external frameworks – pure Python
+
+## Installation
+
+Install the only dependency:
+```bash
+pip install cryptography
