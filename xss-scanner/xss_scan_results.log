@@ -1,0 +1,15 @@
+2026-04-05 23:17:08,653 | INFO | Starting XSS scan on http://testphp.vulnweb.com/
+2026-04-05 23:17:19,852 | INFO | XSS scan completed. Vulnerabilities: 0
+2026-04-05 23:19:27,055 | INFO | Starting XSS scan on http://testphp.vulnweb.com/login.php
+2026-04-05 23:19:37,082 | ERROR | Failed to fetch http://testphp.vulnweb.com/login.php: HTTPConnectionPool(host='testphp.vulnweb.com', port=80): Max retries exceeded with url: /login.php (Caused by ConnectTimeoutError(<HTTPConnection(host='testphp.vulnweb.com', port=80) at 0x1a72cb78a00>, 'Connection to testphp.vulnweb.com timed out. (connect timeout=10)'))
+2026-04-05 23:30:34,479 | INFO | Starting XSS scan on http://localhost/vulnerabilities/sqli/
+2026-04-05 23:30:34,604 | INFO | XSS scan completed. Vulnerabilities: 0
+2026-04-05 23:31:03,150 | INFO | Starting XSS scan on http://localhost/vulnerabilities/sqli/
+2026-04-05 23:31:03,291 | INFO | XSS scan completed. Vulnerabilities: 0
+2026-04-05 23:32:20,327 | INFO | Starting XSS scan on http://localhost/vulnerabilities/xss_r/
+2026-04-05 23:32:20,446 | INFO | XSS scan completed. Vulnerabilities: 0
+2026-04-05 23:33:42,438 | INFO | Starting XSS scan on http://localhost/vulnerabilities/xss_r/
+2026-04-05 23:33:42,607 | INFO | XSS scan completed. Vulnerabilities: 0
+2026-04-05 23:35:11,691 | INFO | Starting XSS scan on http://localhost/vulnerabilities/xss_r/
+2026-04-05 23:35:11,731 | WARNING | XSS found at http://localhost/vulnerabilities/xss_r/login.php with payload: <script>alert('XSS')</script>
+2026-04-05 23:35:12,742 | INFO | XSS scan completed. Vulnerabilities: 1
